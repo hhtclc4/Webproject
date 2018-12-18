@@ -1,0 +1,59 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    posision: relative;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid white
+}
+
+
+
+.corrected{
+	text-decoration:underline;
+}
+
+.Cauhoi{
+	font-style:italic;
+	font-weight:bold;
+}
+
+
+
+#quizlist{
+	position:relative;
+	width:97.5%;
+    margin-left: 5px;
+    margin-right:5px;
+    border = 0;
+}
+
+#quizlist tr.noBorder td
+{
+	border: 0;
+
+	}
+
+#quizlist tr td{
+    text-align: center;
+    
+}
+
+#quizlist tr td button{
+   display: inline-block;
+   width: 90%;       
+   height: 100%;      
+   margin-bottom: 0.5em;
+   padding-bottom: .6em;
+   color: #000000;
+   background-color:#ffffff;
+   border-radius: 5px;
+   box-shadow: 2px 2px 1px #888888;
+   clear:right;
+   float:right;
+ }
+ #quizlist tr td button:active{
+ 	background-color: #80ffff;
+ }
